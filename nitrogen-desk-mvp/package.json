@@ -1,0 +1,18 @@
+{
+  "name": "nitrogen-desk-mvp",
+  "version": "0.1.0",
+  "description": "Teste MVP: monitoramento automatico da rota Nigeria->Brasil (ureia) - Comex Stat + noticias de shipping/planta, com briefing semanal simples",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.19.2",
+    "fast-xml-parser": "^4.4.1",
+    "node-cron": "^3.0.3"
+  }
+}
